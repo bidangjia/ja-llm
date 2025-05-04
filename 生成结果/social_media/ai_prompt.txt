@@ -1,0 +1,24 @@
+You are an e-commerce keyword expert specializing in product descriptions and search optimization. Please review and refine the following keyword list, keeping only those that describe product functionality, usage scenarios, user experience, and features.
+
+The product belongs to these categories: shoe, rack, shoe rack, free, standing, free standing, standing shoe, shoe racks, racks, organizer. 
+
+Note that words like 'free, rack, shoe, standing, racks' are core category terms for this product and should be preserved even when they appear alone.
+
+Please perform the following operations:
+
+1. Remove pure numbers, size specifications, and other contextless keywords
+2. Remove standalone packaging units (like "bag", "box", "set", "pcs") ONLY IF they are not the actual product category. For example, if the product is a bag, keep "bag" as keyword; but if product is furniture, remove standalone "bag".
+3. Remove dimensional or capacity specifications like "120l", "5kg", "25cm" unless they represent a significant product feature
+4. Keep phrases related to product usage experience (e.g., "convenient for baking pizza")
+5. Keep terms expressing user emotions and experiences (e.g., "comfortable grip")
+6. Keep words describing product functions and use scenarios (e.g., "suitable for outdoor camping")
+7. Keep terms related to product features and selling points (e.g., "wireless charging")
+8. Remove overly generic or vague terms
+9. Make minor improvements to retained keywords to better match search habits
+
+IMPORTANT: Consider the product category context when evaluating keywords. Core category terms are valuable even when appearing alone.
+
+Keyword list:
+adjustable industrial rustic brown, adjustable shoe, bamboo wood shoe, boots slippers, closet closet shoe organizer, closet entryway corner garage, closet entryway garage, closet metal shoe, closet metal shoe organizer, closet shoe, closet stackable shoes, closets shoes, corner shoe, corner shoe organizer, cover shoe, dranixly shoe, entryway 40-50pairs garage shoes, entryway 5-tier shoe organizer, entryway adjustable shoe rack, entryway free, entryway free standing shoe, entryway shoe, erone shoe, expandable shoe, free standing shoe, free standing shoe racks, front door metal shoe, garage shoe rack, gonfoam 3-tier expandable shoe, hallway living room, hallway multifunctional bamboo rack, homidec shoe, hooks narrow shoe tower, ingiordar shoe, jucaifu stackable small shoe, kiplant 3-tier shoe rack, kitchen free, kitsure shoe, lanteful 10 tiers shoe, lanteful shoe, large capacity, large shoe, linzinar shoe, living room, long 2-tier shoe organizer, long shoe, long stackable shoe shelves, mavivegue 9-tier metal shoe, mdf top board shoe, metal shoe, metal wide shoe rack, narrow shoe, narrow shoe rack organizer, narrow shoe storage, narrow stackable, narrow stackable shoe shelf, organization, organizer closet, organizer entryway, organizer heavy duty, organizer metal, organizer narrow shoe, organizer portable shoe shelf, organizer shelf, organizer shoe, organizer storage, organizer sturdy, organizer tall boots, organizer tall shoe rack, organizer tier, oyrel shoe, pair shoe organizer shelves, pair shoes, pairs, pairs shoes, rack closet, rack covers, rack door, rack entryway, rack narrow, rack organizer, rack premium, rack shoe, rack storage, rack tall, rack tier, rojasop shoe, shelf organizer, shelf shoe, shelf shoe organizer, shelf storage, shoe organizer, shoe rack, shoe racks, shoe shelf, shoe shelves, shoe stand, shoe stand shoe shelf, shoe storage, shoe storage shelf, shoes boots, shoes closet organization, shoes shoe, shoes shoe organizer, slim shoe cabinet storage, small kids shoe, small shoe, small shoe shelves, smilheltd metal shoe, smiry shoe, sneakers high heels flats, songmics 5-tier shoe, songmics shoe, stackable narrow shoe, stackable shoe, stackable shoe rack, standing shoe, storage maniac expandable shoe, storage organizer, storage organizer cabinet shoe, storage organizer grey, storage shelves, sturdy metal shoe, sturdy shoe, suoernuo shoe, tajsoon expandable shoe rack, tall 36-41 pairs, tall garage shoe, tall large capacity, tall shoe, tall storage shelf, tier bamboo small shoe, tier metal shoe rack, tier shoe, tier shoe storage organizer, tier small pink shoe, tier small shoe, tier stackable, tier stackable small shoe, tier vertical shoe, tiers shoe, top panel, tower spinning shoe display, uneviesyka expandable shoe, up to 16 pairs, up to 32 pairs, vasagle shoe, vertical narrow stackable organizer, vertical shoe, vertical shoe storage organizer, vertical single pairs, vevor shoe cabinet, vilick shoe, vtrin vertical narrow shoe, wide shoe, wooden shoe storage organizer, zehuoge rattan shoe cabinet
+
+Return only the processed keyword list, one keyword per line, without any explanations or numbering. If the total number of keywords is less than 200, please consider keeping more meaningful keywords.

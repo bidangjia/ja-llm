@@ -1,0 +1,71 @@
+```html
+<table>
+    <thead>
+        <tr>
+            <th>改进项</th>
+            <th>所属利益点</th>
+            <th>改进可期待带来的VOC提及</th>
+            <th>改进可期待带来的社交媒体声音/流量</th>
+            <th>辅助说明</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>优化顶部货架可及性</td>
+            <td>空间利用</td>
+            <td>减少"hard to reach top shelf"(2.86%)负面评价</td>
+            <td>提升View阶段对空间设计的正面讨论</td>
+            <td>最高优先级，直接解决第一象限核心痛点</td>
+        </tr>
+        <tr>
+            <td>简化组装流程</td>
+            <td>组装便利性</td>
+            <td>减少"difficult to assemble"(2.87%)和"problemas de ensamblaje"(1.55%)负面评价</td>
+            <td>降低Comment阶段对组装困难的负面互动</td>
+            <td>优先级A，关联用户需求"wish it was easier to assemble"</td>
+        </tr>
+        <tr>
+            <td>加强包装防护</td>
+            <td>运输保护</td>
+            <td>减少"damaged in shipping"(2.86%)负面评价</td>
+            <td>提升Share阶段对包装质量的正面分享</td>
+            <td>关键缺陷区TOP3，需立即实施</td>
+        </tr>
+        <tr>
+            <td>提升材料耐用性</td>
+            <td>材料品质</td>
+            <td>减少"wear and tear quickly"(2.38%)和"cheap materials"(0.66%)负面评价</td>
+            <td>降低Comment阶段对质量的负面讨论</td>
+            <td>优先级A，关联质量控制需求</td>
+        </tr>
+        <tr>
+            <td>增加移动轮子设计</td>
+            <td>移动性</td>
+            <td>满足"could use wheels for mobility"(10.93%)高频率需求</td>
+            <td>提升Like和Share阶段对功能创新的互动</td>
+            <td>核心需求区TOP2，可显著提升用户满意度</td>
+        </tr>
+        <tr>
+            <td>提供可视化组装指南</td>
+            <td>使用指导</td>
+            <td>减少"assembly issues"(0.18%)负面评价</td>
+            <td>降低Repost阶段对组装问题的负面传播</td>
+            <td>关联需求"needs clearer assembly instructions"</td>
+        </tr>
+        <tr>
+            <td>增强层高调节功能</td>
+            <td>功能性</td>
+            <td>满足"could use a top shelf"(1.23%)等需求</td>
+            <td>提升View阶段的搜索可见度（根据View模型）</td>
+            <td>理论假设中层高可调节性对View有显著影响</td>
+        </tr>
+        <tr>
+            <td>提高承重能力</td>
+            <td>结构强度</td>
+            <td>减少"poorly designed"(0.02%)负面评价</td>
+            <td>提升Comment阶段对产品安全性的正面评价</td>
+            <td>关联需求"would be better if it supported heavier shoes"</td>
+        </tr>
+    </tbody>
+</table>
+```

@@ -1,0 +1,146 @@
+# 模型分析结果
+
+## interaction_share_cnt 分布分析
+
+- 样本量: 605
+- 零值数量: 597
+- 零值比例: 98.6777
+- 均值: 0.0149
+- 中位数: 0.0000
+- 标准差: 0.1341
+- 最小值: 0
+- 最大值: 2
+- 偏度: 9.9661
+- 峰度: 110.3523
+
+## 模型选择
+
+- 推荐的模型类型: TOBIT
+- 变量转换: 对数转换
+- 选择原因: 数据中零值比例为98.68%，超过20%，使用Tobit模型。数据偏度为9.97，表现为偏态分布，对因变量进行对数转换。
+
+## 多重共线性检验 (VIF)
+
+VIF > 10 表示可能存在严重的多重共线性问题
+
+| 变量 | VIF |
+|------|------|
+| 安全性需求表达 | 3.5610 |
+| 空间效率表达 | 2.9042 |
+| 环保材质偏好 | 3.2210 |
+| 组装便捷性表达 | 3.2582 |
+| 设计美感表达 | 5.4325 |
+| 层高可调节性表达 | 1.9195 |
+| 防尘功能表达 | 2.3756 |
+| 价格表达 | 1.6728 |
+| 多功能性表达 | 3.3946 |
+| 便携性表达 | 3.1837 |
+| 承重能力表达 | 3.2095 |
+| 耐用性表达 | 3.3261 |
+| 颜色选择表达 | 5.8450 |
+| 季节适应性表达 | 3.1910 |
+| 品牌声誉表达 | 2.4853 |
+| 创新功能表达 | 2.7760 |
+| 儿童友好设计表达 | 2.1063 |
+| 组合灵活性表达 | 3.1638 |
+| author_followers_cnt | 1.1994 |
+| author_friends_cnt | 1.2793 |
+
+## TOBIT回归结果
+
+被解释变量: log_interaction_share_cnt
+
+
+                              TobitModel Results                              
+==============================================================================
+Dep. Variable:                      y   Log-Likelihood:                -376.93
+Model:                     TobitModel   AIC:                             797.9
+Method:            Maximum Likelihood   BIC:                             894.8
+Date:                Tue, 15 Apr 2025                                         
+Time:                        18:46:13                                         
+No. Observations:                 605                                         
+Df Residuals:                     584                                         
+Df Model:                          20                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3.256e-05        nan        nan        nan         nan         nan
+x1            -0.0127        nan        nan        nan         nan         nan
+x2            -0.0212        nan        nan        nan         nan         nan
+x3            -0.0037        nan        nan        nan         nan         nan
+x4             0.0039        nan        nan        nan         nan         nan
+x5            -0.0312        nan        nan        nan         nan         nan
+x6            -0.0008        nan        nan        nan         nan         nan
+x7            -0.0003        nan        nan        nan         nan         nan
+x8             0.0015        nan        nan        nan         nan         nan
+x9            -0.0054        nan        nan        nan         nan         nan
+x10            0.0039        nan        nan        nan         nan         nan
+x11           -0.0024        nan        nan        nan         nan         nan
+x12            0.0019        nan        nan        nan         nan         nan
+x13            0.0079        nan        nan        nan         nan         nan
+x14           -0.0766        nan        nan        nan         nan         nan
+x15           -0.0032        nan        nan        nan         nan         nan
+x16            0.0027        nan        nan        nan         nan         nan
+x17            0.0008        nan        nan        nan         nan         nan
+x18            0.0062        nan        nan        nan         nan         nan
+x19          2.53e-08        nan        nan        nan         nan         nan
+x20          2.14e-06        nan        nan        nan         nan         nan
+par0           0.1881        nan        nan        nan         nan         nan
+==============================================================================
+
+
+## TOBIT回归结果
+
+被解释变量: log_interaction_share_cnt
+
+
+                              TobitModel Results                              
+==============================================================================
+Dep. Variable:                      y   Log-Likelihood:                -376.93
+Model:                     TobitModel   AIC:                             797.9
+Method:            Maximum Likelihood   BIC:                             894.8
+Date:                Tue, 15 Apr 2025                                         
+Time:                        18:46:13                                         
+No. Observations:                 605                                         
+Df Residuals:                     584                                         
+Df Model:                          20                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       3.256e-05        nan        nan        nan         nan         nan
+x1            -0.0127        nan        nan        nan         nan         nan
+x2            -0.0212        nan        nan        nan         nan         nan
+x3            -0.0037        nan        nan        nan         nan         nan
+x4             0.0039        nan        nan        nan         nan         nan
+x5            -0.0312        nan        nan        nan         nan         nan
+x6            -0.0008        nan        nan        nan         nan         nan
+x7            -0.0003        nan        nan        nan         nan         nan
+x8             0.0015        nan        nan        nan         nan         nan
+x9            -0.0054        nan        nan        nan         nan         nan
+x10            0.0039        nan        nan        nan         nan         nan
+x11           -0.0024        nan        nan        nan         nan         nan
+x12            0.0019        nan        nan        nan         nan         nan
+x13            0.0079        nan        nan        nan         nan         nan
+x14           -0.0766        nan        nan        nan         nan         nan
+x15           -0.0032        nan        nan        nan         nan         nan
+x16            0.0027        nan        nan        nan         nan         nan
+x17            0.0008        nan        nan        nan         nan         nan
+x18            0.0062        nan        nan        nan         nan         nan
+x19          2.53e-08        nan        nan        nan         nan         nan
+x20          2.14e-06        nan        nan        nan         nan         nan
+par0           0.1881        nan        nan        nan         nan         nan
+==============================================================================
+
+
+## 模型结果解读
+
+- Tobit模型统计量:
+  - 对数似然值: -376.9268
+  - AIC: 797.8536
+  - BIC: 894.7686
+
+显著的变量 (p < 0.05): 0/19
+
+显著的自变量: 0/18
+
+显著的控制变量: 0/2

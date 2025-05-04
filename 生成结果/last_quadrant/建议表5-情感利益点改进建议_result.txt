@@ -1,0 +1,11 @@
+```html
+<table>
+<tr><th>改进项</th><th>所属利益点</th><th>改进可期待带来的VOC提及</th><th>改进可期待带来的社交媒体声音/流量</th><th>辅助说明</th></tr>
+<tr><td>优化顶部架子可及性设计（如增加高度调节功能）</td><td>设计/人体工学</td><td>减少"hard to reach top shelf" (2.86%)负面评价</td><td>提升View阶段互动，因层高可调节性在View模型中显著（系数0.4666）</td><td>最高优先级，直接影响核心使用体验</td></tr>
+<tr><td>简化组装流程并提供图文说明书</td><td>组装便捷性</td><td>减少"difficult to assemble" (2.87%)和"assembly issues" (0.18%)负面提及</td><td>降低Comment阶段对组装困难的负面讨论，提升正面评价</td><td>高优先级，解决用户高频痛点（提及频率总和3.05%）</td></tr>
+<tr><td>增强运输包装保护措施</td><td>包装质量</td><td>减少"damaged in shipping" (2.86%)负面评价</td><td>减少负面评论，提升整体社交媒体评价</td><td>中等优先级，需立即实施以降低退货率</td></tr>
+<tr><td>使用更耐用材料并加强结构设计</td><td>材料质量</td><td>减少"wear and tear quickly" (2.38%)和"cheap materials" (0.66%)负面提及</td><td>提升产品耐用性的正面分享，增强长期用户粘性</td><td>高优先级，可降低重复购买需求</td></tr>
+<tr><td>增加可调节层高功能</td><td>空间效率</td><td>满足"needs more tiers" (19%)用户需求，减少层数不足投诉</td><td>显著提升View阶段互动（层高可调节性系数0.4666），增强产品差异化</td><td>高优先级，满足核心需求并提升社交媒体传播</td></tr>
+<tr><td>增强框架结构稳定性</td><td>结构安全性</td><td>减少"would be better if it didn't wobble" (8.26%)负面评价</td><td>提升Comment阶段对产品稳定性的正面互动，降低负面传播</td><td>高优先级，解决安全隐患和用户信任问题</td></tr>
+</table>
+```
